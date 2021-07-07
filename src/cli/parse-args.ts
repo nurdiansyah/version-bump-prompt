@@ -32,6 +32,7 @@ export function parseArgs(argv: string[]): ParsedArgs {
         { name: "version", alias: "v", type: Boolean },
         { name: "help", alias: "h", type: Boolean },
         { name: "ignore-scripts", type: Boolean },
+        { name: "git-files", type: String, multiple: true },
         { name: "files", type: String, multiple: true, defaultOption: true },
       ],
       { argv }
@@ -49,6 +50,7 @@ export function parseArgs(argv: string[]): ParsedArgs {
         all: args.all as boolean,
         noVerify: args["no-verify"] as boolean,
         files: args.files as string[],
+        gitFiles: args["git-files"] as string[],
         ignoreScripts: args["ignore-scripts"] as boolean,
       }
     };
