@@ -41,6 +41,8 @@ options:
 
   -q, --quiet               Suppress unnecessary output
 
+  --git-files               add git files for include commit
+
   -h, --help                Show usage information
 
   --ignore-scripts          Bypass version scripts
