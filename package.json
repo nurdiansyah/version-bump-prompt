@@ -1,5 +1,5 @@
 {
-  "name": "@deboxsoft/bump",
+  "name": "@nurdiansyah/bump",
   "version": "6.1.0",
   "description": "Automatically (or with prompts) bump your version number, commit changes, tag, and push to Git",
   "keywords": [
