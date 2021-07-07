@@ -14,6 +14,7 @@ interface OperationState {
   commitMessage: string;
   tagName: string;
   updatedFiles: string[];
+  gitFiles: string[];
   skippedFiles: string[];
 }
 
@@ -42,6 +43,7 @@ export class Operation {
     commitMessage: "",
     tagName: "",
     updatedFiles: [],
+    gitFiles: [],
     skippedFiles: [],
   };
 

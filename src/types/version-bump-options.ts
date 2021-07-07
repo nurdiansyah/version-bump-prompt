@@ -74,6 +74,8 @@ export interface VersionBumpOptions {
    */
   files?: string[];
 
+  gitFiles?: string[];
+
   /**
    * The working directory, which is used as the basis for locating all files.
    *
